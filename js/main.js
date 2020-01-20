@@ -311,6 +311,21 @@
 	};
 	goHere();
 
+	var goTop= function() {
+
+		$('.mouse-go-top').on('click', function(event){
+			
+			event.preventDefault();
+
+			$('html,body').animate({
+				scrollTop: $('.goto-here').offset().top
+			}, 500, 'easeInOutExpo');
+			
+			return false;
+		});
+	};
+	goTop();
+
 
 	function makeTimer() {
 
