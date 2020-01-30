@@ -9307,6 +9307,10 @@ textarea.form-control {
   background-repeat: no-repeat;
   background-position: center center; }
 
+.project {
+  margin-bottom: 45px;
+}
+
 .ftco-services .services {
   display: block;
   width: 100%;
